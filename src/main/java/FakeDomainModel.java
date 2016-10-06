@@ -1,5 +1,3 @@
-package excerise3.finalproject.generics;
-
 import java.util.ArrayList;
 import java.util.List;
 

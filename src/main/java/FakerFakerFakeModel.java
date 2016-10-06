@@ -1,11 +1,9 @@
-package excerise3.finalproject.generics;
-
 import java.util.List;
 
-public class FakerFakeModel extends FakeDomainModel {
+public class FakerFakerFakeModel extends FakeDomainModel {
 
     public void SayHello() {
-        System.out.println("Saying hello!");
+        System.out.println("Saying fake hello!");
     }
 
     @Override

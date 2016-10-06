@@ -1,7 +1,5 @@
-package excerise3.finalproject.generics;
-
-import java.util.HashMap;
 import java.util.Map;
+import java.util.WeakHashMap;
 
 /**
  * Searches for the model in the service context, which is a Map
@@ -11,7 +9,7 @@ public class DomainRetriever {
     private Map<Class<? extends DomainModel>, Class<?>> serviceContext;
 
     public DomainRetriever() {
-        serviceContext = new HashMap<>();
+        serviceContext = new WeakHashMap<>();
     }
 
     public <T extends R, R extends DomainModel> void put(Class<R> key, Class<T> type) {

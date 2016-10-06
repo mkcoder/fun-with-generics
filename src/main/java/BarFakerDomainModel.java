@@ -1,6 +1,3 @@
-package excerise3.finalproject.generics;
-
-
 public class BarFakerDomainModel extends BarFakeModel {
 
     public void iDontBelong() {
